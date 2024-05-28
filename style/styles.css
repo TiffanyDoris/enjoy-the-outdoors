@@ -10,7 +10,7 @@ body {
 
 .navbar {
   background: linear-gradient(to bottom, rgba(52, 58, 64, 0.8) 50%, transparent 100%);
-  padding: 1rem 0;
+  padding: 1rem 8rem;
   z-index: 2; /* Ensure navbar is above video */
   color: #ffffff; /* Text color */
 }
