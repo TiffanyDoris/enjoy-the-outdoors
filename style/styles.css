@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #161813;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, rgba(52, 58, 64, 0.8) 50%, transparent 100%);
+  padding: 1rem 0;
+  z-index: 2; /* Ensure navbar is above video */
+  color: #ffffff; /* Text color */
+}
+
+.navbar.bg {
+  background: #8e9682;
+}
+
+footer {
+  background: linear-gradient(to top, rgba(52, 58, 64, 0.8) 50%, transparent 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 0rem;
+  z-index: 2; /* Ensure footer is above video */
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.logo {
+  height: 50px;
+  margin-top: 10px;
+}
+
+.link-item {
+  margin: 0 20px;
+  transition: 0.5s;
+}
+
+.link-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.link-item:hover {
+  transform: scale(1.2);
+}
